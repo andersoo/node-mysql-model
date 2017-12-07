@@ -1,6 +1,5 @@
-var _ = require('underscore')._;
 var Backbone = require('backbone');
-var mysql = require('mysql');
+var mysql = require('mysql2');
 
 var createConnection  = function (options) {
 	// Uses node-mysql to establish connection with database
